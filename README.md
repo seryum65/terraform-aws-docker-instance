@@ -12,6 +12,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "seryum65/docker-instance/aws"
-    key_name = "clarusway"
+    key_name = "seryum"
 }
 ```
